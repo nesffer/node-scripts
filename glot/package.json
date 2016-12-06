@@ -1,0 +1,15 @@
+{
+  "name": "glot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "glot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nesffer",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
