@@ -1,0 +1,15 @@
+{
+  "name": "chance-progress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chance-progress.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nesffer",
+  "license": "MIT",
+  "dependencies": {
+    "chance": "^1.0.4",
+    "underscore": "^1.8.3"
+  }
+}
