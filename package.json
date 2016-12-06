@@ -1,0 +1,25 @@
+{
+  "name": "node-scripts",
+  "version": "1.0.0",
+  "description": "Node.js Scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nesffer@github.com/Nesffer/node-scripts.git"
+  },
+  "author": "Nesffer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nesffer/node-scripts/issues"
+  },
+  "homepage": "https://github.com/Nesffer/node-scripts#readme",
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}

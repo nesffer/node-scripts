@@ -10,11 +10,11 @@ module.exports = () => {
             if (data.result === 'true') {
                 resolve({time: data.time, temp: data.temp});
             } else {
-                reject('404 Not Found');
+                reject(new Error('404 Not Found'));
             }
         })
         .catch(error => {
-            reject(error.message);
+            reject(new Error(error.message));
         });
     });
 };
@@ -25,6 +25,6 @@ if (require.main === module) {
         console.log(response);
     })
     .catch(error => {
-        console.log(error);
+        console.error(error.message);
     });
 }
